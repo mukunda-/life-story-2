@@ -1,6 +1,7 @@
 machine_name     : "Life Story 2";
 machine_author   : "Mukunda Johnson <mukunda@mukunda.com>";
 machine_license  : MIT;
+machine_comment  : "In-depth Program Progression of Everyday Life.";
 machine_language : en;
 machine_version  : 1.0.0;
 fsl_version      : 1.0.0;
