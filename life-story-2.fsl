@@ -1,0 +1,15 @@
+machine_name     : "Life Story 2";
+machine_author   : "Mukunda Johnson <mukunda@mukunda.com>";
+machine_license  : MIT;
+machine_language : en;
+machine_version  : 1.0.0;
+fsl_version      : 1.0.0;
+start_states     : [Existence];
+
+"Existence" => "Wake Up" => "Breakfast" 'Work Day' => "Work";
+
+"Work" => "Lunch" 'Back to work.' => "More Work" 'Phew, finally, time to have some fun.' => "Have Some Fun" 'Tomorrow is another day. Another one.' => "Contemplate Existence" => "Fall Asleep" => "Wake Up";
+
+"Breakfast" 'Weekend!' => "No Work" => "Lunch" 'Still the weekend.' => "Have Some Fun";
+
+["Wake Up" "Breakfast" "Work" "Lunch" "More Work" "Contemplate Existence"] -> Depression;
